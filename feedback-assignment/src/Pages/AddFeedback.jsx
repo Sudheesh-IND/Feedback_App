@@ -46,8 +46,8 @@ function AddFeedback() {
   
   return (
     <div>
-        <div className="flex h-screen bg-clr4 w-full items-center justify-center">
-            <div className="lg:w-4/12 lg:p-8 h-auto shadow-lg rounded-lg flex flex-col p-4">
+        <div className="flex h-screen  w-full items-center justify-center">
+            <div className="lg:w-4/12 bg-clr4 lg:p-8 h-auto shadow-lg rounded-lg flex flex-col p-4">
                 <div className='w-10 h-10 bg-clr1 rounded-full -mt-10 flex items-center justify-center'>
                 <i class="fa-solid fa-plus text-slate-50 font-bold"></i>
                 </div>

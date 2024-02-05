@@ -36,7 +36,7 @@ function AddComments() {
 
        if(response.status>=200){
         alert("Comment added successfully")
-        setComment({...comments,[name]:''})
+        setComment(comments.content="")
        }else{
         console.log(response)
        }
